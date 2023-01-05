@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Consulta API CNPJ</title>
+  </head>
+  <body>
+    <form action="#" id="formCep">
+      <input type="number" name="cep" id="cep" required placeholder="digite o cep" />
+      <button type="submit" id="buscar">Buscar</button>
+    </form>
+
+    <section class="retorno">
+      
+      <p> Estado: </p> <input type="text" disabled id="state" />
+      <p> Cidade: </p><input type="text" disabled id="city" />
+      <p> Bairro: </p><input type="text" disabled id="neighborhood" />
+      <p> Rua/Avenida: </p><input type="text" disabled id="street" />
+      
+    </section>
+
+     <script src="const.js"></script>
+    <script src="index.js"></script>
+   
+    
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-color: #ffd400;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(85, 85, 236);
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    color: #ffd400; !important
+    text: #ffd400;
+    
+}
+
+form input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffd400;
+}
+
+form input::placeholder{
+    color: #ffd400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form button{
+    color: rgb(85, 85, 236);
+    background-color: #ffd400;
+    border: #fff solid;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.retorno {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      
+      
+      padding-top: 50px;
+    color:rgb(85, 85, 236);   
+}
+
+.retorno p{
+    
+    width: 50px;    
+   
+    
+}
+
+.retorno input{
+    padding: 0;
+    margin-top: 15px;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #ffd400;
+    background-color: #fff;
+    border: rgb(85, 85, 236) solid;
+}
