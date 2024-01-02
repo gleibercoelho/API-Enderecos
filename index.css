@@ -1,5 +1,8 @@
 body {
     background-color: #ffd400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 form {
@@ -12,23 +15,29 @@ form {
     flex-direction: row;
     color: #ffd400; !important
     text: #ffd400;
+    font-size: 30px;
     
 }
 
 form input{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffd400;
+    font-size: 30px;
+    padding-left: 100px;
 }
 
 form input::placeholder{
     color: #ffd400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 60px;
 }
 
 form button{
     color: rgb(85, 85, 236);
     background-color: #ffd400;
-    border: #fff solid;
+   border: none;
+   font-size: 30px;
     margin-left: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -38,27 +47,29 @@ form button{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      align-content: center;
-      
-      
-      padding-top: 50px;
+      align-content: center;      
+      padding-bottom: 50px;
     color:rgb(85, 85, 236);   
 }
 
 .retorno p{
     
-    width: 50px;    
+    width: 50px; 
+    font-size: 25px;   
    
     
 }
 
 .retorno input{
     padding: 0;
-    margin-top: 15px;
-    width: 300px;
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+    width: 450px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
-    color: #ffd400;
+    color: rgb(85, 85, 236);
     background-color: #fff;
     border: rgb(85, 85, 236) solid;
+    margin-bottom: 0px;
 }
